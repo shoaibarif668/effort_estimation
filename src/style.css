@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+body{
+    background-color: #181818;
+    transition: 0.6s;
+    height: 100vh;
+    overflow: hidden;
+
+}
+/*Home Page*/
+#text_div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 10px;
+    
+}
+.center_all{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform:translate(-50%,-50%);
+    color: white;
+}
+.custom_subText{
+    text-align: center;
+    font-weight: bold;
+}
+.custom-subTitle{
+    font-weight: bold;
+}
+.effort_est{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.effort_est_btn {
+    margin-top: 35px;
+}
+.effort_est_btn a{
+    text-decoration: none;
+    color: white;
+    background:#090909;
+    border: none;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px 40px; 
+    margin-right: 10px;
+    transition:0.6s;
+}
+.effort_est_btn a:hover{
+    transition:0.6s;
+    color: white;
+    background:#202020;
+    border: none;
+}
+/*Default Text Positioning*/
+.above_particle{
+    position: absolute;  
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+/*404 Page*/
+.notFound{
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+}
+.__redirect{
+    margin-top: 15px;
+    padding: 10px 40px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #52749D;
+    border-radius: 25px;
+    background:#52749D;
+    text-transform: capitalize;
+    transition:0.6s;
+}
+ .__redirect:hover{
+    color: #52749D;
+    border: 1px solid white;
+    background:white;
+    transition:0.6s;
+}
+/*Header*/
+header{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    transition:0.6s;
+    padding:40px 100px;
+    
+}
+header .logo{
+    position: relative;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+header ul{
+    position: relative;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+header ul li{
+    position: relative;
+    list-style: none;
+
+}
+header ul li a{
+    position: relative;
+    margin: 0px 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 500;
+    transition:0.6s;
+}
+/*FPA*/
+.FPA{
+    position:absolute;
+    /* top:20%;
+    left: 0; */
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform:translate(-50%,-50%);
+    color: white;
+}
+
+/*Cocomo*/
+.cocomo{
+    position:absolute;
+    /* top:20%;
+    left: 0; */
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform:translate(-50%,-50%);
+    color: white;
+}
+
+/*Cocomo2*/
+.cocomo2{
+    position:absolute;
+    /* top:20%;
+    left: 0; */
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform:translate(-50%,-50%);
+    color: white;
+}
+
+/*SLIM*/
+.slim{
+    position:absolute;
+    /* top:20%;
+    left: 0; */
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform:translate(-50%,-50%);
+    color: white;
+}
+
+/*UCP*/
+.ucp{
+    position:absolute;
+    /* top:20%;
+    left: 0; */
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform:translate(-50%,-50%);
+    color: white;
+}
