@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
 body{
     background-color: #181818;
     transition: 0.6s;
@@ -6,6 +8,16 @@ body{
     overflow: hidden;
 
 }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
 /*Home Page*/
 #text_div{
     position: absolute;
@@ -148,14 +160,225 @@ header ul li a{
 /*Cocomo*/
 .cocomo{
     position:absolute;
-    /* top:20%;
-    left: 0; */
-    top: 50%;
+    top:50%;
     left: 50%;
     margin-right: -50%;
     transform:translate(-50%,-50%);
     color: white;
 }
+.cocomo_submenu{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.cocomo_submenu a{
+    padding:20px;
+    text-decoration: none;
+    color: white;
+    background-color: #bdd4e7;
+    background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
+    font-weight: bold;
+    font-size: 20px;
+}
+.cocomo_submenu a:first-child{
+    border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.cocomo_submenu a:last-child{
+    border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+/*Organic*/
+.organic{
+    position:absolute;
+    top:25%;
+    left: 0%;
+    width: 100%;
+    color: white;
+}
+.organic__head__button{
+    background:transparent;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    font-size: 34px;
+    display: flex;
+    align-items: center;
+}
+.organic__head form{
+    margin-top: 25px;
+}
+.organic__head form .form__group{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.organic__head form .form__group label{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.organic__head form .form__group input{
+    padding: 10px;
+    font-size: 15px;
+    width: 300px;
+    font-weight: bold;
+    color:white;
+    border: none;   
+    background:transparent;
+    border-bottom: 1px solid white;
+}
+.organic__head form .form__group input:focus{
+    outline: none;
+}
+.organic__head form button{
+    background-color: #e9bcb7;
+    background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
+    color: white;
+    margin: 20px 0px;
+    font-weight: bold;  
+    font-size: 16px;
+    padding:12px;
+    border: none;
+    border-radius: 5px;
+}
+.organic__head form button:focus{
+    outline: none;
+}
+.organic__answers h2{
+    font-family: 'Dancing Script', cursive;
+}
+
+
+/*Semi-Detached*/
+.semi__detached{
+    position:absolute;
+    top:25%;
+    left: 0%;
+    width: 100%;
+    color: white;
+}
+.detached__head__button{
+    background:transparent;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    font-size: 34px;
+    display: flex;
+    align-items: center;
+}
+.detached__head form{
+    margin-top: 25px;
+}
+.detached__head form .form__group{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.detached__head form .form__group label{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.detached__head form .form__group input{
+    padding: 10px;
+    font-size: 15px;
+    width: 300px;
+    font-weight: bold;
+    color:white;
+    border: none;   
+    background:transparent;
+    border-bottom: 1px solid white;
+}
+.detached__head form .form__group input:focus{
+    outline: none;
+}
+.detached__head form button{
+    background-color: #e9bcb7;
+    background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
+    color: white;
+    margin: 20px 0px;
+    font-weight: bold;  
+    font-size: 16px;
+    padding:12px;
+    border: none;
+    border-radius: 5px;
+}
+.detached__head form button:focus{
+    outline: none;
+}
+.detached__answers h2{
+    font-family: 'Dancing Script', cursive;
+}
+
+/*Embedded*/
+.embedded{
+    position:absolute;
+    top:25%;
+    left: 0%;
+    width: 100%;
+    color: white;
+}
+.embedded__head_button{
+    background:transparent;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    font-size: 34px;
+    display: flex;
+    align-items: center;
+}
+.embedded__head form{
+    margin-top: 25px;
+}
+.embedded__head form .form__group{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.embedded__head form .form__group label{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.embedded__head form .form__group input{
+    padding: 10px;
+    font-size: 15px;
+    width: 300px;
+    font-weight: bold;
+    color:white;
+    border: none;   
+    background:transparent;
+    border-bottom: 1px solid white;
+}
+.embedded__head form .form__group input:focus{
+    outline: none;
+}
+.embedded__head form button{
+    background-color: #e9bcb7;
+    background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
+    color: white;
+    margin: 20px 0px;
+    font-weight: bold;  
+    font-size: 16px;
+    padding:12px;
+    border: none;
+    border-radius: 5px;
+}
+.embedded__head form button:focus{
+    outline: none;
+}
+.embedded__answers h2{
+    font-family: 'Dancing Script', cursive;
+}
+
 
 /*Cocomo2*/
 .cocomo2{
@@ -172,15 +395,56 @@ header ul li a{
 /*SLIM*/
 .slim{
     position:absolute;
-    /* top:20%;
-    left: 0; */
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform:translate(-50%,-50%);
+    top: 15%;
+    left:0%;
+    width: 100%;
     color: white;
 }
-
+.slim form{
+    margin-top: 25px;
+}
+.slim form .form__group{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.slim form .form__group label{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.slim form .form__group input{
+    padding: 5px;
+    font-size: 15px;
+    width: 300px;
+    font-weight: bold;
+    color:white;
+    border: none;   
+    background:transparent;
+    border-bottom: 1px solid white;
+}
+.slim form .form__group input:focus{
+    outline: none;
+}
+.slim form button{
+    background-color: #e9bcb7;
+    background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
+    color: white;
+    margin: 20px 0px;
+    font-weight: bold;  
+    font-size: 16px;
+    padding:12px;
+    border: none;
+    border-radius: 5px;
+}
+.slim form button:focus{
+    outline: none;
+}
+.slim__answer h2{
+    font-family: 'Dancing Script', cursive;
+}
 /*UCP*/
 .ucp{
     position:absolute;
