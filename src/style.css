@@ -8,6 +8,14 @@ body{
     overflow: hidden;
 
 }
+.error {
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
@@ -383,13 +391,78 @@ header ul li a{
 /*Cocomo2*/
 .cocomo2{
     position:absolute;
-    /* top:20%;
-    left: 0; */
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform:translate(-50%,-50%);
+    top: 15%;
+    left:0%;
+    width: 100%;
     color: white;
+}
+.cocomo2 form{
+    margin-top: 25px;
+}
+.cocomo2 form .form__group__wrapper{
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+.cocomo2 form .form__group{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.cocomo2 form .form__group .exp_radio .exp_radio_wrapper{
+    display: flex;
+}
+.cocomo2 form .form__group .exp_radio .exp_radio_wrapper input{
+    width: 100px;
+}
+.cocomo2 form .form__group .exp_radio .exp_radio_wrapper label{
+    margin-right: 25px;
+}
+.cocomo2 form .form__group label{
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.cocomo2 form .form__group label small{
+    font-size: 14px;
+    font-weight: normal;
+}
+.cocomo2 form .form__group input{
+    padding: 5px;
+    font-size: 15px;
+    width: 250px;
+    font-weight: bold;
+    color:white;
+    border: none;   
+    background:transparent;
+    border-bottom: 1px solid white;
+    margin-right: 10px;
+}
+.cocomo2 form .form__group input:focus{
+    outline: none;
+}
+.cocomo2 form button{
+    background-color: #e9bcb7;
+    background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
+    color: white;
+    margin: 20px 0px;
+    font-weight: bold;  
+    font-size: 16px;
+    padding:12px;
+    border: none;
+    border-radius: 5px;
+}
+.cocomo2 form button:focus{
+    outline: none;
+}
+.cocomo2__answer{
+    display: flex;
+    align-items:center;
+}
+.cocomo2__answer h2{
+    margin-left: 15px;
+    font-family: 'Dancing Script', cursive;
 }
 
 /*SLIM*/

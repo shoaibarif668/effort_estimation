@@ -1,7 +1,7 @@
 /*CSS*/
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import { Route, Switch } from "react-router";
+import {Switch } from "react-router";
 import Home from "./Component/Home";
 import NotFound from "./Component/NotFound";
 import ParticleBackground from "./Component/ParticleBackground";
