@@ -108,11 +108,14 @@ const FPA = () => {
                       complex weighing factor :)
                     </small>
                     <div className="Unadjusted__FP">
-                      
+                   
                       <div>
+                     
                         <div className="weighing__factors">
                             {/*External Inputs */}
+                            
                           <div>
+                              
                             <input
                               type="number"
                               name="EISimple"
@@ -121,7 +124,7 @@ const FPA = () => {
                               placeholder="EI..."
                               required
                             />
-                            <p>* Simple</p>
+                            <p>* Simple(EI)</p>
                           </div>
                           <div>
                             <input
@@ -132,7 +135,7 @@ const FPA = () => {
                               placeholder="EI..."
                               required
                             />
-                            <p>* Average</p>
+                            <p>* Average(EI)</p>
                           </div>
                           <div>
                             <input
@@ -143,7 +146,7 @@ const FPA = () => {
                               placeholder="EI..."
                               required
                             />
-                            <p>* Complex</p>
+                            <p>* Complex(EI)</p>
                           </div>
                         </div>
                         {/*External Outputs */}
@@ -157,7 +160,7 @@ const FPA = () => {
                               placeholder="EO..."
                               required
                             />
-                            <p>* Simple</p>
+                            <p>* Simple(EO)</p>
                           </div>
                           <div>
                             <input
@@ -168,7 +171,7 @@ const FPA = () => {
                               placeholder="EO..."
                               required
                             />
-                            <p>* Average</p>
+                            <p>* Average(EO)</p>
                           </div>
                           <div>
                             <input
@@ -179,7 +182,7 @@ const FPA = () => {
                               placeholder="EO..."
                               required
                             />
-                            <p>* Complex</p>
+                            <p>* Complex(EO)</p>
                           </div>
                         </div>
                       </div>
@@ -195,7 +198,7 @@ const FPA = () => {
                               placeholder="EQ..."
                               required
                             />
-                            <p>* Simple</p>
+                            <p>* Simple(EQ)</p>
                           </div>
                           <div>
                             <input
@@ -206,7 +209,7 @@ const FPA = () => {
                               placeholder="EQ..."
                               required
                             />
-                            <p>* Average</p>
+                            <p>* Average(EQ)</p>
                           </div>
                           <div>
                             <input
@@ -217,7 +220,7 @@ const FPA = () => {
                               placeholder="EQ..."
                               required
                             />
-                            <p>* Complex</p>
+                            <p>* Complex(EQ)</p>
                           </div>
                         </div>
                         <div className="weighing__factors">
@@ -230,7 +233,7 @@ const FPA = () => {
                               placeholder="ILF..."
                               required
                             />
-                            <p>* Simple</p>
+                            <p>* Simple(ILF)</p>
                           </div>
                           <div>
                             <input
@@ -241,7 +244,7 @@ const FPA = () => {
                               placeholder="ILF..."
                               required
                             />
-                            <p>* Average</p>
+                            <p>* Average(ILF)</p>
                           </div>
                           <div>
                             <input
@@ -252,7 +255,7 @@ const FPA = () => {
                               placeholder="ILF..."
                               required
                             />
-                            <p>* Complex</p>
+                            <p>* Complex(ILF)</p>
                           </div>
                         </div>
                       </div>
@@ -267,7 +270,7 @@ const FPA = () => {
                             placeholder="EIF..."
                             required
                           />
-                          <p>* Simple</p>
+                          <p>* Simple(EIF)</p>
                         </div>
                         <div>
                           <input
@@ -278,7 +281,7 @@ const FPA = () => {
                             placeholder="EIF..."
                             required
                           />
-                          <p>* Average</p>
+                          <p>* Average(EIF)</p>
                         </div>
                         <div>
                           <input
@@ -289,7 +292,7 @@ const FPA = () => {
                             placeholder="EIF..."
                             required
                           />
-                          <p>* Complex</p>
+                          <p>* Complex(EIF)</p>
                         </div>
                       </div>
                     </div>

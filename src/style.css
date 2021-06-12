@@ -675,11 +675,12 @@ header ul li a{
 .FPA form .form__group label small{
     font-size: 14px;
     font-weight: normal;
+
 }
 .FPA form .form__group input{
     padding: 5px;
     font-size: 15px;
-    width: 70px;
+    width: 55px;
     font-weight: bold;
     color:white;
     border: none;   
