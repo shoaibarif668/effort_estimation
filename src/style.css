@@ -153,17 +153,7 @@ header ul li a{
     font-weight: 500;
     transition:0.6s;
 }
-/*FPA*/
-.FPA{
-    position:absolute;
-    /* top:20%;
-    left: 0; */
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform:translate(-50%,-50%);
-    color: white;
-}
+
 
 /*Cocomo*/
 .cocomo{
@@ -521,11 +511,209 @@ header ul li a{
 /*UCP*/
 .ucp{
     position:absolute;
-    /* top:20%;
-    left: 0; */
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform:translate(-50%,-50%);
+    top: 15%;
+    left:0%;
+    width: 100%;
     color: white;
+}
+.ucp form{
+    margin-top: 25px;
+}
+/* .ucp form .form__group__wrapper{
+    display: flex;
+     justify-content: space-evenly; 
+} */
+.ucp form .form__group__wrapper .Unadjusted_UCP{
+    display: flex;
+    justify-content:space-between;
+}
+.ucp form .form__group{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.ucp form .form__group .UUCW__Use_Case_Complexity{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+}
+.ucp form .form__group h5{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.ucp form .form__group label{
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.ucp form .form__group label small{
+    font-size: 14px;
+    font-weight: normal;
+}
+.ucp form .form__group input{
+    padding: 5px;
+    font-size: 15px;
+    width: 150px;
+    font-weight: bold;
+    color:white;
+    border: none;   
+    background:transparent;
+    border-bottom: 1px solid white;
+    margin-right: 10px;
+}
+.ucp form .complexityFactors input{
+    width: 70px;
+    margin-right: 5px;
+    margin-bottom: 0px !important;
+}
+.ucp form .form__group input:focus{
+    outline: none;
+}
+.ucp form button{
+    background-color: #e9bcb7;
+    background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
+    color: white;
+    margin: 5px 0px 20px 0px;
+    font-weight: bold;  
+    font-size: 16px;
+    padding:12px;
+    border: none;
+    border-radius: 5px;
+}
+.ucp form button:focus{
+    outline: none;
+}
+.ucp__answer{
+    display: flex;
+    align-items:center;
+}
+.ucp__answer h2{
+    margin-left: 15px;
+    font-family: 'Dancing Script', cursive;
+}
+
+/*FPA*/
+.FPA{
+    position:absolute;
+    top: 15%;
+    left:0%;
+    width: 100%;
+    color: white;
+}
+.FPA form{
+    margin-top: 25px;
+}
+/* .FPA form .form__group__wrapper{
+    display: flex;
+     justify-content: space-evenly; 
+} */
+
+.FPA form .form__group{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+/* .FPA form .form__group__wrapper .form__group .Unadjusted__FP{
+    display: flex;
+    justify-content:space-between;
+} */
+.FPA form .form__group__wrapper .form__group .Unadjusted__FP .weighing__factors{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.FPA form .form__group__wrapper .form__group .Unadjusted__FP div{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom: 5px;
+}
+.FPA form .form__group__wrapper .form__group .Unadjusted__FP div p{
+    margin-bottom: 0px;
+    margin-right: 20px;
+}
+.FPA form .form__group__wrapper .form__group .complexity_AF{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.FPA form .form__group__wrapper .form__group .complexity_AF div{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom: 5px;
+}
+.FPA form .form__group__wrapper .form__group .complexity_AF div p{
+    margin-bottom: 0px;
+    margin-right: 20px;
+}
+/* .FPA form .form__group .UUCW__Use_Case_Complexity{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+} */
+.FPA form .form__group h5{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.FPA form .form__group label{
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.FPA form .form__group small{
+    font-size: 12px;
+    font-weight: normal;
+    padding-bottom: 5px;
+}
+.FPA form .form__group label small{
+    font-size: 14px;
+    font-weight: normal;
+}
+.FPA form .form__group input{
+    padding: 5px;
+    font-size: 15px;
+    width: 70px;
+    font-weight: bold;
+    color:white;
+    border: none;   
+    background:transparent;
+    border-bottom: 1px solid white;
+    margin-right: 10px;
+}
+.FPA form .complexityFactors input{
+    width: 70px;
+    margin-right: 5px;
+    margin-bottom: 0px !important;
+}
+.FPA form .form__group input:focus{
+    outline: none;
+}
+.FPA form button{
+    background-color: #e9bcb7;
+    background-image: linear-gradient(315deg, #e9bcb7 0%, #29524a 74%);
+    color: white;
+    margin: 5px 0px 20px 0px;
+    font-weight: bold;  
+    font-size: 16px;
+    padding:12px;
+    border: none;
+    border-radius: 5px;
+}
+.FPA form button:focus{
+    outline: none;
+}
+.FPA__answer{
+    display: flex;
+    align-items:center;
+}
+.FPA__answer h2{
+    margin-left: 15px;
+    font-family: 'Dancing Script', cursive;
 }
